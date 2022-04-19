@@ -1,0 +1,21 @@
+.heading_wrapper {
+  position: relative;
+  width: fit-content;
+}
+.heading_highlight {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border: solid 7px #d1fae5;
+  opacity: 35%;
+  z-index: -10;
+}
+.darker_highlight {
+  border: solid 6px #d1fae5;
+  opacity: 100%;
+}
+
+h1.heading_wrapper {
+  text-align: center;
+}

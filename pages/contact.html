@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miao Zhao</title>
+    <script
+      src="https://kit.fontawesome.com/62d1e89cd9.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../functions/navbar.js"></script>
+    <link rel="stylesheet" href="../styles/base/index.css" />
+    <link rel="stylesheet" href="../styles/components/index.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+  </head>
+
+  <body>
+    <div class="body_wrapper">
+      <!-- here is the nav bar -->
+      <header>
+        <div class="container">
+          <div class="wrapper">
+            <a href="./index.html" class="logo_a">
+              <img src="../assets/logo.svg" alt="Miao's Logo" class="logo" />
+            </a>
+            <nav id="myNav" class="navbar">
+              <a href="./index.html" class="menu_item">Home</a>
+              <a href="./work.html" class="menu_item">Work</a>
+              <a href="./contact.html" class="menu_item active">Contact</a>
+            </nav>
+            <a href="javascript:void(0);" class="nav_icon" onclick="navFunc()">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="wrapper section contact_wrapper">
+            <div class="contact_info">
+              <h2 class="heading_wrapper">
+                Contact
+                <div class="heading_highlight darker_highlight"></div>
+              </h2>
+              <div class="contact_info_content">
+                <p>Brisbane QLD 4000 AU</p>
+                <a
+                  href="mailto:miao_zhao@yahoo.com?subject = Feedback&body = Message"
+                  class="email_link"
+                  >miao_zhao@yahoo.com</a
+                >
+                <div class="social_links">
+                  <a
+                    href="https://www.linkedin.com/in/miao-zhao-d/"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/miaozhaod" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <form
+              action="https://formspree.io/f/mlezpewp"
+              method="post"
+              class="card contact_form"
+            >
+              <div class="contact_form_inputs">
+                <div class="contact_input_field_wrapper">
+                  <label for="name">What's your name ?</label>
+                  <input type="text" id="name" class="contact_input_field" />
+                </div>
+                <div class="contact_input_field_wrapper">
+                  <label for="email">What's your email ?</label>
+                  <input type="email" id="email" class="contact_input_field" />
+                </div>
+                <div class="contact_input_field_wrapper">
+                  <label for="message">What do you want to say ?</label>
+                  <textarea id="message" class="contact_input_field"></textarea>
+                </div>
+              </div>
+              <div class="contact_form_submit">
+                <button type="submit" class="primary_button">
+                  <span> Send </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <div class="wrapper footer">© She Codes - Miao 2022</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

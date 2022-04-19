@@ -1,0 +1,146 @@
+.card {
+  border: solid 1px #34d399;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #1f1f1f41;
+  padding: 2rem;
+}
+.no_shadow {
+  box-shadow: none;
+  border-color: #e5e5e5;
+}
+
+.card_full p {
+  color: #a3a3a3;
+}
+
+.card_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 640px) {
+  .card_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.card_square {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 50% 0;
+}
+
+.card_square_content_outer {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+.card_square_content_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.card_square p {
+  color: #a3a3a3;
+}
+
+.card_square i {
+  color: #34d399;
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+.card_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  opacity: 0;
+  transition: 0.5s;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card_overlay:hover {
+  opacity: 95%;
+}
+.card_overlay h4,
+span {
+  color: #fafafa;
+}
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.techs span {
+  font-size: 12px;
+  border: 1px solid #d1fae5;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+
+.border_orange {
+  border-color: #fdba74;
+}
+.border_orange i {
+  color: #fb923c;
+}
+.border_blue {
+  border-color: #bae6fd;
+}
+.border_blue i {
+  color: #0ea5e9;
+}
+.border_yellow {
+  border-color: #fef08a;
+}
+.border_yellow i {
+  color: #facc15;
+}
+.border_red {
+  border-color: #fda4af;
+}
+.border_red i {
+  color: #e11d48;
+}
+
+.project {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project1 {
+  background-image: url(../../assets/projects/great-phermesia.png);
+}
+.project2 {
+  background-image: url(../../assets/projects/weather-app.png);
+}
+.project3 {
+  background-image: url(../../assets/projects/craft-example.png);
+}
+.project4 {
+  background-image: url(../../assets/projects/lg-air-sketches.jpeg);
+}

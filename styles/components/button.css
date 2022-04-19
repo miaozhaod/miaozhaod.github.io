@@ -1,0 +1,59 @@
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  width: fit-content;
+  padding: 0.65rem 1.8rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #1f1f1f41;
+  transition: all 0.5s;
+}
+
+button span {
+  font-size: 14px;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 1.8rem;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.primary_button {
+  background-color: #10b981;
+  color: #fafafa;
+}
+
+.secondary_button {
+  background-color: #fafafa;
+}
+.secondary_button span {
+  color: #1f1f1f;
+}
+
+.link_button {
+  color: #10b981;
+  text-decoration: none;
+  border-bottom: 1px #10b981 dashed;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.link_button:hover {
+  color: #047857;
+  border-color: #047857;
+}
