@@ -40,16 +40,22 @@ p {
 }
 
 .banner_avatar {
-  width: 30%;
+  width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
-
+@media screen and (min-width: 640px) {
+  .banner_avatar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
 .banner_avatar > img {
   border-radius: 50%;
   width: 100%;
   max-width: 300px;
-  height: fit-content;
+  height: auto;
   object-fit: cover;
 }
 
