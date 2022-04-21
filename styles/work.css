@@ -1,3 +1,7 @@
+.nav_icon > i {
+  color: #134e4a;
+}
+
 .banner {
   height: 40vh;
   display: flex;
