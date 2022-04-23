@@ -71,15 +71,32 @@
               <div class="contact_form_inputs">
                 <div class="contact_input_field_wrapper">
                   <label for="name">What's your name ?</label>
-                  <input type="text" id="name" class="contact_input_field" />
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="contact_input_field"
+                    required
+                  />
                 </div>
                 <div class="contact_input_field_wrapper">
                   <label for="email">What's your email ?</label>
-                  <input type="email" id="email" class="contact_input_field" />
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="contact_input_field"
+                    required
+                  />
                 </div>
                 <div class="contact_input_field_wrapper">
                   <label for="message">What do you want to say ?</label>
-                  <textarea id="message" class="contact_input_field"></textarea>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="contact_input_field"
+                    required
+                  ></textarea>
                 </div>
               </div>
               <div class="contact_form_submit">
