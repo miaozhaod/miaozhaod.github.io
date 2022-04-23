@@ -1,9 +1,5 @@
-.nav_icon > i {
-  color: #134e4a;
-}
-
 .banner {
-  height: 40vh;
+  height: 25vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -39,4 +35,28 @@
   100% {
     transform: translate(0px, 0px);
   }
+}
+
+.project {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+.project-gp {
+  background-image: url(../../assets/projects/great-phermesia.png);
+}
+.project-weather {
+  background-image: url(../../assets/projects/weather-app.png);
+}
+.project-literacy {
+  background-image: url(../../assets/projects/craft-example.png);
+}
+.project-ux {
+  background-image: url(../../assets/projects/lg-air-sketches.jpeg);
+}
+.project-portfolio {
+  background-image: url(../assets/projects/portfolio-app.png);
+}
+.project-soon {
+  background-image: url(../assets/projects/coming-soon.jpg);
 }

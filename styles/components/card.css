@@ -127,20 +127,4 @@ span {
   color: #e11d48;
 }
 
-.project {
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-}
-.project1 {
-  background-image: url(../../assets/projects/great-phermesia.png);
-}
-.project2 {
-  background-image: url(../../assets/projects/weather-app.png);
-}
-.project3 {
-  background-image: url(../../assets/projects/craft-example.png);
-}
-.project4 {
-  background-image: url(../../assets/projects/lg-air-sketches.jpeg);
-}
+
