@@ -1,21 +1,11 @@
 .banner {
-  height: 60vh;
+  /* height: 60vh; */
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   text-align: center;
   gap: 2rem;
-}
-
-@media screen and (min-width: 640px) {
-  .banner {
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
 }
 
 .banner_text {
@@ -25,15 +15,9 @@
   align-items: center;
 }
 
-@media screen and (min-width: 640px) {
-  .banner_text {
-    align-items: flex-start;
-  }
-}
-
 .banner_text h1,
 p {
-  color: #fafafa;
+  color: #1f1f1f;
 }
 .banner_text button {
   margin-top: 1rem;
@@ -44,13 +28,7 @@ p {
   display: flex;
   justify-content: center;
 }
-@media screen and (min-width: 640px) {
-  .banner_avatar {
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-  }
-}
+
 .banner_avatar > img {
   border-radius: 50%;
   width: 100%;
@@ -66,16 +44,15 @@ p {
 
 .bg_circle_green_top {
   background-image: linear-gradient(to bottom right, #a7f3d0, #10b981);
-  width: 120vh;
-  height: 120vh;
+  width: 70vh;
+  height: 70vh;
   border-radius: 50%;
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate(-30%, -60%);
+  transform: translate(-60%, -60%);
   animation: green_top_move 10s infinite;
 }
-
 @keyframes green_top_move {
   0% {
     top: 0rem;
@@ -106,7 +83,6 @@ p {
   transform: translate(-50%, -50%);
   animation: green_btm_move 10s infinite;
 }
-
 @keyframes green_btm_move {
   0% {
     top: 0rem;
@@ -122,6 +98,42 @@ p {
   }
   100% {
     top: 0rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .banner {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .banner_text {
+    align-items: flex-start;
+  }
+  .banner_text h1,
+  p {
+    color: #fafafa;
+  }
+
+  .banner_avatar {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .bg_circle_green_top {
+    width: 120vh;
+    height: 120vh;
+    transform: translate(-30%, -60%);
+  }
+
+  .my_work_button {
+    background-color: #fafafa;
+  }
+  .my_work_button span {
+    color: #1f1f1f;
   }
 }
 
