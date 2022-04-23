@@ -8,6 +8,6 @@
 - JavaScript
 
 ## Submission
-- The codes' repositotry is at https://github.com/miaozhaod/miaozhaod.github.io
+- The codes' repository is at https://github.com/miaozhaod/miaozhaod.github.io
 - The live website can be accessed via https://miaozhaod.github.io/ 
-- The screenshots can be accessed in the `portfolio-screenshots` folder submitted to thinkific portal
+- The screenshots can be accessed in the `screenshots` folder in the above repository
